@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.image-heading {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.image {
+  width: 180px;
+}
+.listItem {
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .listItem {
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,66 @@
+/* Write your CSS here */
+* {
+  box-sizing: 0px;
+}
+body {
+  margin: 0px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  text-align: center;
+}
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 20px;
+}
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  width: 180px;
+  border-radius: 7px;
+  border: none;
+}
+.inputEl {
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: transparent;
+  padding-left: 10px;
+  margin-right: 8px;
+  border: none;
+  outline: none;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.ul {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .search-container {
+    align-items: flex-start;
+    padding-left: 30px;
+  }
+  .ul {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .heading {
+    text-align: center;
+    font-size: 25px;
+  }
+}
